@@ -1,0 +1,6 @@
+# Served at the domain root. The pages that should stay out of search (thank_you, checkout, 404, the embedded
+# demos) say so with <meta name="robots" content="noindex">; a Disallow line would stop crawlers from reading that
+# tag, so there are none. Every public page is listed in the sitemap below.
+User-agent: *
+Allow: /
+Sitemap: https://starkforall.com/sitemap.xml

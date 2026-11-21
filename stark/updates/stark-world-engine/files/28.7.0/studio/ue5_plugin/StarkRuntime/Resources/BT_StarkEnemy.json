@@ -1,0 +1,40 @@
+{
+  "name": "BT_StarkEnemy",
+  "about": "Behaviour tree description of the Stark World Engine enemy brain. AStarkEnemyAIController runs exactly this logic natively, so no asset is needed; build it in the Behavior Tree editor (about 5 minutes) and assign it to the controller's BehaviorTreeAsset to edit the AI visually. Numbers come from the enemy's FStarkEnemyDef (sight, speed, damage) in metres / seconds.",
+  "docs": "https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-tree-in-unreal-engine---quick-start-guide",
+  "blackboard": {
+    "name": "BB_StarkEnemy",
+    "keys": [
+      {"name": "TargetActor", "type": "Object", "base_class": "Actor", "note": "the hero while chasing"},
+      {"name": "HomeLocation", "type": "Vector", "note": "spawn point"},
+      {"name": "State", "type": "Name", "values": ["patrol", "chase", "return"]},
+      {"name": "WanderLocation", "type": "Vector"}
+    ]
+  },
+  "services": [
+    {"name": "UpdateState", "interval_s": 0.25, "rule": "patrol/return -> chase when hero closer than Sight and home closer than 26 m; chase -> return when hero farther than Sight * 1.7 or home farther than 30 m; return -> patrol within 1 m of home"}
+  ],
+  "root": {
+    "type": "Selector",
+    "children": [
+      {"type": "Sequence", "name": "Chase", "decorator": "State == chase",
+       "children": [
+         {"type": "Selector", "children": [
+           {"type": "Sequence", "name": "Ranged (archer)", "decorator": "Def.Ranged",
+            "children": [{"type": "KeepDistance", "min_m": 6, "max_m": 11}, {"type": "Shoot", "every_s": 1.9, "range_m": 16, "speed_m_s": 11}]},
+           {"type": "Sequence", "name": "Slam (brute, boss)", "decorator": "Kind == brute or Def.Boss",
+            "children": [{"type": "MoveTo", "key": "TargetActor", "acceptance_m": "1.1 + 1.4 * scale (boss)"}, {"type": "Wait", "seconds": 0.55, "note": "wind-up"}, {"type": "Damage", "radius_m": "2.6 + scale"}, {"type": "Cooldown", "seconds": 1.6}]},
+           {"type": "Sequence", "name": "Melee",
+            "children": [{"type": "MoveTo", "key": "TargetActor", "acceptance_m": "1.1 + 0.3 * scale"}, {"type": "Damage"}, {"type": "Cooldown", "seconds": 1.2}]}
+         ]},
+         {"type": "Parallel", "name": "Boss extras", "decorator": "Def.Boss",
+          "children": [{"type": "Volley", "projectiles": 14, "every_s": "5 (3.2 enraged)", "speed_m_s": 8}, {"type": "EnrageOnce", "below_health": 0.5, "summons": 2, "speed_mul": 1.35}]}
+       ]},
+      {"type": "Sequence", "name": "Return home", "decorator": "State == return",
+       "children": [{"type": "MoveTo", "key": "HomeLocation", "acceptance_m": 1}]},
+      {"type": "Sequence", "name": "Patrol",
+       "children": [{"type": "FindRandomLocationAroundHome", "radius_m": "Patrol (default 5)"}, {"type": "MoveTo", "key": "WanderLocation", "speed_mul": 0.45}, {"type": "Wait", "seconds": 2, "random_deviation": 3}]}
+    ]
+  },
+  "navigation": "Native brain moves directly (no NavMesh needed). A Behavior Tree with MoveTo needs a NavMeshBoundsVolume covering the level."
+}

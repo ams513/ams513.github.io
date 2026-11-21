@@ -1,0 +1,477 @@
+{
+ "app_files": [
+  {
+   "path": "ACTIVATE_PRO.bat",
+   "sha256": "695ac8ec7973f84baca970786a90fcfbdda66e0b410cdaacff24b2aa776984f0",
+   "size": 1962
+  },
+  {
+   "path": "CHANGELOG.md",
+   "sha256": "c960c923c3058dd06b43c16a56d7de6b45aa286199c27220f1e9dee7498f3ee9",
+   "size": 13501
+  },
+  {
+   "path": "CHANNEL",
+   "sha256": "f379ccb92b9116442dc65bdc35648a85d3786b34779db7f704a901fa07b00cb6",
+   "size": 6
+  },
+  {
+   "path": "LICENSE",
+   "sha256": "c51cb3c6625d39fcab59aac321538ae0d9f0499aea1528cb08d7f54743804869",
+   "size": 467
+  },
+  {
+   "path": "README.md",
+   "sha256": "0d13e40b0ff499e5d333362594d5a4b9957d9b0a06f9e9e266aef9db1c0c81f5",
+   "size": 8931
+  },
+  {
+   "path": "START_STARK_QUILL.bat",
+   "sha256": "8618a5e256cbadee85f1c2bc851963affc10e8c595d2b2e2af2ede2417f9453a",
+   "size": 1060
+  },
+  {
+   "path": "SUPPORT.md",
+   "sha256": "b80e433214f35e607f9cd927dcf810df1ccdef9779c7929f4bf8ecd32ac47a1f",
+   "size": 3982
+  },
+  {
+   "path": "assets/quill.ico",
+   "sha256": "d9fe57163725132ad5e7b2bced62fe56d9181431ed01c45a0807728a59030d45",
+   "size": 7962
+  },
+  {
+   "path": "auto_updater.py",
+   "sha256": "fe03e2dfd1e0dfaf4a2799cc82d7fbc3c8ec2b711375980854b17835e552d415",
+   "size": 22196
+  },
+  {
+   "path": "install_quill.bat",
+   "sha256": "586a7649b683f48da95098ea2948b5c21f74a1f0696e99378800be6415f7bc9e",
+   "size": 3158
+  },
+  {
+   "path": "license_guard.py",
+   "sha256": "48ee80777df61eebabc964bdc27e7ca545514d1284dab2134ea2cbc31efb3e4c",
+   "size": 31581
+  },
+  {
+   "path": "local_tls.py",
+   "sha256": "804ad5a6051d58934bf3b93c817861d3dc30f41ee51c8779bc737f88f58ab867",
+   "size": 46115
+  },
+  {
+   "path": "quill_brand.py",
+   "sha256": "0502e00d299039c727d81efa0319b789f09c72148db424751f551dc77eadb18b",
+   "size": 23921
+  },
+  {
+   "path": "quill_cite.py",
+   "sha256": "eae50a5c871135eebbd42a7c628947352c1c7196daa13ec30f160d18640f7f84",
+   "size": 20979
+  },
+  {
+   "path": "quill_contests.py",
+   "sha256": "53ec032b921b2f2da407e039a31f2a7167841b6af6335ddd45d463c514dd9fb2",
+   "size": 26643
+  },
+  {
+   "path": "quill_craft.py",
+   "sha256": "51a64d7aecb2ada1e08fd67423ea73e0a44232086d66c0bcaa81f1b1d12dc795",
+   "size": 36620
+  },
+  {
+   "path": "quill_epubcheck.py",
+   "sha256": "ff2c37cc27dc2fb03dfa321768bf4a6e94779d4d2e2e0f5761fea1a43e354c0f",
+   "size": 17852
+  },
+  {
+   "path": "quill_export.py",
+   "sha256": "194c22bb909503a9915b2caa605dbe45948c8138afb0fbd7ef8fcc3c509c929d",
+   "size": 134769
+  },
+  {
+   "path": "quill_import.py",
+   "sha256": "10bd0a37d43aa3ad8576c73346e7bfa68f9fec0e6de533bbdb115a344a2cf7ea",
+   "size": 19791
+  },
+  {
+   "path": "quill_library.py",
+   "sha256": "6888b11f6ddc64c48b39099296639069620108235d618b3b4513195f43c5d733",
+   "size": 16556
+  },
+  {
+   "path": "quill_lore.py",
+   "sha256": "a39889c06951ddbaec656ad27f5207eedea6f03e6ac6798bc6912dbfa729d7c8",
+   "size": 31148
+  },
+  {
+   "path": "quill_paste.py",
+   "sha256": "562abd17b0cdfa2bac429858647db6de40f78169013bb3ca35cbe1ca9bfe7be5",
+   "size": 6955
+  },
+  {
+   "path": "quill_schools.py",
+   "sha256": "ab07416a9b14b16f29a8ca67d23c5accd570a1302ab5662aade9ffc421c2b78e",
+   "size": 13386
+  },
+  {
+   "path": "quill_script.py",
+   "sha256": "7392f09cf938131f8a28303de6324f8197998b584c278c98e82b45bfd8ee2167",
+   "size": 35777
+  },
+  {
+   "path": "quill_spell.py",
+   "sha256": "894696a0ec7c2cc76ffcf216dbf6252f5fe9b18236dc3a543a604110f50c8864",
+   "size": 9891
+  },
+  {
+   "path": "quill_studio.py",
+   "sha256": "82c81637dc77ec51c4760c716a9a96ce5dfec7d00f01ecf0aea3aaeec1a50f31",
+   "size": 14906
+  },
+  {
+   "path": "quill_ui.py",
+   "sha256": "bcbd437f20c5f63698334f9ba399c5cf91e245b1cac3b40247b17ce46620075b",
+   "size": 202768
+  },
+  {
+   "path": "quill_update.json",
+   "sha256": "6595bf1f33477c38c9bb51e1e61347d39c83989ee3bf3e1be59ff54286d08319",
+   "size": 141
+  },
+  {
+   "path": "start_stark_quill.sh",
+   "sha256": "2f2a5bd528019daf4c9d2764290eb0834b01f265af927280fff02fc033cd396c",
+   "size": 463
+  },
+  {
+   "path": "writer_app.py",
+   "sha256": "639f355ee3b6460fb78596b71c1fabc31324912b82452a97a04758d92e73835b",
+   "size": 210529
+  }
+ ],
+ "base_url": "https://ams513.github.io/stark/updates/quill/1.5.2/",
+ "channels": {
+  "beta": {
+   "app_files": [
+    {
+     "path": "ACTIVATE_PRO.bat",
+     "sha256": "695ac8ec7973f84baca970786a90fcfbdda66e0b410cdaacff24b2aa776984f0",
+     "size": 1962
+    },
+    {
+     "path": "CHANGELOG.md",
+     "sha256": "bb566161968e9f92eff5cfb3b6a51b932bd13de26460d0a3ab8b2782522bf7e5",
+     "size": 12242
+    },
+    {
+     "path": "CHANNEL",
+     "sha256": "f379ccb92b9116442dc65bdc35648a85d3786b34779db7f704a901fa07b00cb6",
+     "size": 6
+    },
+    {
+     "path": "LICENSE",
+     "sha256": "91b15df90a8d27b596f125e633ce63fc79d703a4d22c923b11a944bd4ce650df",
+     "size": 467
+    },
+    {
+     "path": "README.md",
+     "sha256": "9d58a9989252a201bb13b43d548d39d976d94e921891715743b6241121a46541",
+     "size": 9061
+    },
+    {
+     "path": "START_STARK_QUILL.bat",
+     "sha256": "8618a5e256cbadee85f1c2bc851963affc10e8c595d2b2e2af2ede2417f9453a",
+     "size": 1060
+    },
+    {
+     "path": "SUPPORT.md",
+     "sha256": "b80e433214f35e607f9cd927dcf810df1ccdef9779c7929f4bf8ecd32ac47a1f",
+     "size": 3982
+    },
+    {
+     "path": "assets/quill.ico",
+     "sha256": "d9fe57163725132ad5e7b2bced62fe56d9181431ed01c45a0807728a59030d45",
+     "size": 7962
+    },
+    {
+     "path": "auto_updater.py",
+     "sha256": "fe03e2dfd1e0dfaf4a2799cc82d7fbc3c8ec2b711375980854b17835e552d415",
+     "size": 22196
+    },
+    {
+     "path": "install_quill.bat",
+     "sha256": "586a7649b683f48da95098ea2948b5c21f74a1f0696e99378800be6415f7bc9e",
+     "size": 3158
+    },
+    {
+     "path": "license_guard.py",
+     "sha256": "48ee80777df61eebabc964bdc27e7ca545514d1284dab2134ea2cbc31efb3e4c",
+     "size": 31581
+    },
+    {
+     "path": "local_tls.py",
+     "sha256": "804ad5a6051d58934bf3b93c817861d3dc30f41ee51c8779bc737f88f58ab867",
+     "size": 46115
+    },
+    {
+     "path": "quill_brand.py",
+     "sha256": "0502e00d299039c727d81efa0319b789f09c72148db424751f551dc77eadb18b",
+     "size": 23921
+    },
+    {
+     "path": "quill_cite.py",
+     "sha256": "eae50a5c871135eebbd42a7c628947352c1c7196daa13ec30f160d18640f7f84",
+     "size": 20979
+    },
+    {
+     "path": "quill_contests.py",
+     "sha256": "53ec032b921b2f2da407e039a31f2a7167841b6af6335ddd45d463c514dd9fb2",
+     "size": 26643
+    },
+    {
+     "path": "quill_craft.py",
+     "sha256": "51a64d7aecb2ada1e08fd67423ea73e0a44232086d66c0bcaa81f1b1d12dc795",
+     "size": 36620
+    },
+    {
+     "path": "quill_epubcheck.py",
+     "sha256": "ff2c37cc27dc2fb03dfa321768bf4a6e94779d4d2e2e0f5761fea1a43e354c0f",
+     "size": 17852
+    },
+    {
+     "path": "quill_export.py",
+     "sha256": "b6b8be4570b5f8a04bbcbc10f1814c21a9478f4227dfc2851e2e90fbed982305",
+     "size": 133882
+    },
+    {
+     "path": "quill_import.py",
+     "sha256": "10bd0a37d43aa3ad8576c73346e7bfa68f9fec0e6de533bbdb115a344a2cf7ea",
+     "size": 19791
+    },
+    {
+     "path": "quill_library.py",
+     "sha256": "6888b11f6ddc64c48b39099296639069620108235d618b3b4513195f43c5d733",
+     "size": 16556
+    },
+    {
+     "path": "quill_lore.py",
+     "sha256": "a39889c06951ddbaec656ad27f5207eedea6f03e6ac6798bc6912dbfa729d7c8",
+     "size": 31148
+    },
+    {
+     "path": "quill_paste.py",
+     "sha256": "562abd17b0cdfa2bac429858647db6de40f78169013bb3ca35cbe1ca9bfe7be5",
+     "size": 6955
+    },
+    {
+     "path": "quill_schools.py",
+     "sha256": "ab07416a9b14b16f29a8ca67d23c5accd570a1302ab5662aade9ffc421c2b78e",
+     "size": 13386
+    },
+    {
+     "path": "quill_script.py",
+     "sha256": "7392f09cf938131f8a28303de6324f8197998b584c278c98e82b45bfd8ee2167",
+     "size": 35777
+    },
+    {
+     "path": "quill_spell.py",
+     "sha256": "894696a0ec7c2cc76ffcf216dbf6252f5fe9b18236dc3a543a604110f50c8864",
+     "size": 9891
+    },
+    {
+     "path": "quill_studio.py",
+     "sha256": "82c81637dc77ec51c4760c716a9a96ce5dfec7d00f01ecf0aea3aaeec1a50f31",
+     "size": 14906
+    },
+    {
+     "path": "quill_ui.py",
+     "sha256": "cd60bdfd1617238473343558aad4cc9d4fe53bc741ce58593f1236b3120ebeed",
+     "size": 199438
+    },
+    {
+     "path": "quill_update.json",
+     "sha256": "6595bf1f33477c38c9bb51e1e61347d39c83989ee3bf3e1be59ff54286d08319",
+     "size": 141
+    },
+    {
+     "path": "start_stark_quill.sh",
+     "sha256": "2f2a5bd528019daf4c9d2764290eb0834b01f265af927280fff02fc033cd396c",
+     "size": 463
+    },
+    {
+     "path": "writer_app.py",
+     "sha256": "78b64c09e46df6c0e9fa0b26a0135dcbef378097661fa80c6b26f8458bcb73b4",
+     "size": 213325
+    }
+   ],
+   "base_url": "https://ams513.github.io/stark/updates/quill/1.5.1/",
+   "released": "2026-11-21",
+   "version": "1.5.1"
+  },
+  "stable": {
+   "app_files": [
+    {
+     "path": "ACTIVATE_PRO.bat",
+     "sha256": "695ac8ec7973f84baca970786a90fcfbdda66e0b410cdaacff24b2aa776984f0",
+     "size": 1962
+    },
+    {
+     "path": "CHANGELOG.md",
+     "sha256": "c960c923c3058dd06b43c16a56d7de6b45aa286199c27220f1e9dee7498f3ee9",
+     "size": 13501
+    },
+    {
+     "path": "CHANNEL",
+     "sha256": "f379ccb92b9116442dc65bdc35648a85d3786b34779db7f704a901fa07b00cb6",
+     "size": 6
+    },
+    {
+     "path": "LICENSE",
+     "sha256": "c51cb3c6625d39fcab59aac321538ae0d9f0499aea1528cb08d7f54743804869",
+     "size": 467
+    },
+    {
+     "path": "README.md",
+     "sha256": "0d13e40b0ff499e5d333362594d5a4b9957d9b0a06f9e9e266aef9db1c0c81f5",
+     "size": 8931
+    },
+    {
+     "path": "START_STARK_QUILL.bat",
+     "sha256": "8618a5e256cbadee85f1c2bc851963affc10e8c595d2b2e2af2ede2417f9453a",
+     "size": 1060
+    },
+    {
+     "path": "SUPPORT.md",
+     "sha256": "b80e433214f35e607f9cd927dcf810df1ccdef9779c7929f4bf8ecd32ac47a1f",
+     "size": 3982
+    },
+    {
+     "path": "assets/quill.ico",
+     "sha256": "d9fe57163725132ad5e7b2bced62fe56d9181431ed01c45a0807728a59030d45",
+     "size": 7962
+    },
+    {
+     "path": "auto_updater.py",
+     "sha256": "fe03e2dfd1e0dfaf4a2799cc82d7fbc3c8ec2b711375980854b17835e552d415",
+     "size": 22196
+    },
+    {
+     "path": "install_quill.bat",
+     "sha256": "586a7649b683f48da95098ea2948b5c21f74a1f0696e99378800be6415f7bc9e",
+     "size": 3158
+    },
+    {
+     "path": "license_guard.py",
+     "sha256": "48ee80777df61eebabc964bdc27e7ca545514d1284dab2134ea2cbc31efb3e4c",
+     "size": 31581
+    },
+    {
+     "path": "local_tls.py",
+     "sha256": "804ad5a6051d58934bf3b93c817861d3dc30f41ee51c8779bc737f88f58ab867",
+     "size": 46115
+    },
+    {
+     "path": "quill_brand.py",
+     "sha256": "0502e00d299039c727d81efa0319b789f09c72148db424751f551dc77eadb18b",
+     "size": 23921
+    },
+    {
+     "path": "quill_cite.py",
+     "sha256": "eae50a5c871135eebbd42a7c628947352c1c7196daa13ec30f160d18640f7f84",
+     "size": 20979
+    },
+    {
+     "path": "quill_contests.py",
+     "sha256": "53ec032b921b2f2da407e039a31f2a7167841b6af6335ddd45d463c514dd9fb2",
+     "size": 26643
+    },
+    {
+     "path": "quill_craft.py",
+     "sha256": "51a64d7aecb2ada1e08fd67423ea73e0a44232086d66c0bcaa81f1b1d12dc795",
+     "size": 36620
+    },
+    {
+     "path": "quill_epubcheck.py",
+     "sha256": "ff2c37cc27dc2fb03dfa321768bf4a6e94779d4d2e2e0f5761fea1a43e354c0f",
+     "size": 17852
+    },
+    {
+     "path": "quill_export.py",
+     "sha256": "194c22bb909503a9915b2caa605dbe45948c8138afb0fbd7ef8fcc3c509c929d",
+     "size": 134769
+    },
+    {
+     "path": "quill_import.py",
+     "sha256": "10bd0a37d43aa3ad8576c73346e7bfa68f9fec0e6de533bbdb115a344a2cf7ea",
+     "size": 19791
+    },
+    {
+     "path": "quill_library.py",
+     "sha256": "6888b11f6ddc64c48b39099296639069620108235d618b3b4513195f43c5d733",
+     "size": 16556
+    },
+    {
+     "path": "quill_lore.py",
+     "sha256": "a39889c06951ddbaec656ad27f5207eedea6f03e6ac6798bc6912dbfa729d7c8",
+     "size": 31148
+    },
+    {
+     "path": "quill_paste.py",
+     "sha256": "562abd17b0cdfa2bac429858647db6de40f78169013bb3ca35cbe1ca9bfe7be5",
+     "size": 6955
+    },
+    {
+     "path": "quill_schools.py",
+     "sha256": "ab07416a9b14b16f29a8ca67d23c5accd570a1302ab5662aade9ffc421c2b78e",
+     "size": 13386
+    },
+    {
+     "path": "quill_script.py",
+     "sha256": "7392f09cf938131f8a28303de6324f8197998b584c278c98e82b45bfd8ee2167",
+     "size": 35777
+    },
+    {
+     "path": "quill_spell.py",
+     "sha256": "894696a0ec7c2cc76ffcf216dbf6252f5fe9b18236dc3a543a604110f50c8864",
+     "size": 9891
+    },
+    {
+     "path": "quill_studio.py",
+     "sha256": "82c81637dc77ec51c4760c716a9a96ce5dfec7d00f01ecf0aea3aaeec1a50f31",
+     "size": 14906
+    },
+    {
+     "path": "quill_ui.py",
+     "sha256": "bcbd437f20c5f63698334f9ba399c5cf91e245b1cac3b40247b17ce46620075b",
+     "size": 202768
+    },
+    {
+     "path": "quill_update.json",
+     "sha256": "6595bf1f33477c38c9bb51e1e61347d39c83989ee3bf3e1be59ff54286d08319",
+     "size": 141
+    },
+    {
+     "path": "start_stark_quill.sh",
+     "sha256": "2f2a5bd528019daf4c9d2764290eb0834b01f265af927280fff02fc033cd396c",
+     "size": 463
+    },
+    {
+     "path": "writer_app.py",
+     "sha256": "639f355ee3b6460fb78596b71c1fabc31324912b82452a97a04758d92e73835b",
+     "size": 210529
+    }
+   ],
+   "base_url": "https://ams513.github.io/stark/updates/quill/1.5.2/",
+   "released": "2026-11-21",
+   "version": "1.5.2"
+  }
+ },
+ "feed": 2,
+ "note": "Beta installs follow 'beta' and move to 'stable' when the full release is at least as new.",
+ "product": "Stark Quill",
+ "revoked": [],
+ "signature": "9uVt7O3sbbxU7O4Qu7av4zr9uuBgae9ZaingKHAxk3lbAbEaBAwEOmoPNATQVbsvjAXC05G9Ip5Ny-znvDxvAA",
+ "version": "1.5.2"
+}

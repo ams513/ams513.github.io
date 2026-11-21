@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Stark World Engine Runtime",
+	"Description": "Plays Stark World Engine games in Unreal Engine 5: quests, dialogue, inventory, saves, NPCs, enemy AI, portals between levels. One binary serves every game; the game itself lives in data assets.",
+	"Category": "Gameplay",
+	"CreatedBy": "Stark",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "StarkRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
